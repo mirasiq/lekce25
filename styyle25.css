@@ -1,0 +1,72 @@
+#celej {
+     background-color: rgb(152, 159, 221);
+     margin: 200px;
+     border-radius: 20px;
+     
+}
+
+#paticka {
+    background-color: rgb(17, 1, 160);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+#obsah {
+    background-color: rgb(252, 252, 252);
+    padding: 10px;
+}
+
+#ukol {
+    padding: 10px;
+    
+}
+
+#h1 {
+    color: rgb(3, 3, 85);
+}
+body {
+    background-color: rgb(155, 155, 154);
+}
+
+#nepovinne {
+    background-color: rgba(225, 238, 153, 0.678);
+    padding: 30px;
+    
+    
+}
+
+#seznam {
+    background-color: rgba(131, 245, 109, 0.747);
+    padding: 30px;
+}
+
+#prace {
+    background-color: rgba(235, 153, 121, 0.747);
+    padding: 30px;
+}
+
+#domaci {
+    background-color: rgba(165, 144, 241, 0.747);
+    padding: 30px;
+}
+
+#obsah {
+    padding: 20px;
+
+}
+
+.splneny {
+    text-decoration: line-through;
+    color: green;
+}
+
+.nesplneny {
+    font-weight: bold;
+    color: red;
+}
+
+.ropracovany {
+    font-style: italic;
+    color: blue;
+}
