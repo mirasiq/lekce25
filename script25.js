@@ -37,12 +37,38 @@ let filtr_vsechny = document.getElementById ("filtr_vsechny")
 let filtr_rozpracovano = document.getElementById ("filtr_rozpracovano")
 
 filtr_splneno.addEventListener("click"  , () => {
-    ukol.style.display = ""
-  
-    for (const element of object) {
-        
+    for (const ukol of ukoly) {
+        if (ukol.className == "splneny") {
+            ukol.style.display = ""
+        } else {
+            ukol.style.display = "none"
+        }
     }
-
 })
+filtr_vsechny.addEventListener("click" , () => {
 
-ukol.style.display = "none"
+    for (const ukol of ukoly) {
+        ukol.style.display = ""
+
+    }
+        
+    })
+
+filtr_nesplneno.addEventListener("click"  , () => {
+    for (const ukol of ukoly) {
+        if (ukol.className == "nesplneny") {
+            ukol.style.display = ""
+        } else {
+            ukol.style.display = "none"
+        }
+    }
+})
+filtr_rozpracovano.addEventListener("click"  , () => {
+    for (const ukol of ukoly) {
+        if (ukol.className == "rozpracovany") {
+            ukol.style.display = ""
+        } else {
+            ukol.style.display = "none"
+        }
+    }
+})
